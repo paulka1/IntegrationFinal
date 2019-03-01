@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+  <html>
+
+  <head>
+
+    <meta charset="utf-8" />	
+	
+    <title> FindThePrecious </title>
+
+    <link href="FindThePrecious.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+
+  	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>	
+
+<!--SLIDER JS-->
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+function showDivs(n) {
+	var i;
+  	var x = document.getElementsByClassName("mySlides");
+  	if (n > x.length) {slideIndex = 1} 
+  	if (n < 1) {slideIndex = x.length} ;
+  	for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  	x[slideIndex-1].style.display = "block"; 
+}
+</script>
+
+
+  	                                          <!--    SECTION HEADER    -->
+    <header>
+
+    	<h4 id="Titre"> FindThePrecious.com </h4>
+
+    	<div class="menu">
+         	<nav>
+          		<ul>
+        			<li class="menu1"><a href=#fellows> Fellows </a> </li>
+        			<li class="menu1"><a href=#ring> The Ring </a> </li>
+        			<li class="menu1"><a href=#reward>  Get my reward </a> </li>
+        			<li class="menu1"><a href=#hunters> Best hunters </a> </li>
+        			<li class="menu1"><a href=#army> Join the army </a> </li>
+        			<li class="menu1"><a href=#contact> Contact us </a> </li>
+
+          		 </ul>
+        	</nav>
+        </div>
+
+        <div id="slider">
+        	<img class="mySlides" src="https://via.placeholder.com/140" alt="">
+			<img class="mySlides" src="https://via.placeholder.com/140" alt="">
+			<img class="mySlides" src="https://via.placeholder.com/140" alt="">
+			<img class="mySlides" src="https://via.placeholder.com/140" alt="">
+			<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>	
+
+			<h2 id="textSlider"> Dangerous fellowship try to destroy the ring </h2>
+			<h4 id="textSlider1"> Orcs, Gobelins, Balrogs, protect your master Sauron !</h4>
+  		</div>
+
+    </header>	
+
+    										<!--     SECTION FELLOWS     -->
+
+    <section id="sectionFellows">
+
+    	<h2 class="titreSection" id="fellows">Fellows wanted dead <span>(or alive if you want to eat them later)</span></h2>
+
+      	<div id="fellowsMenu">
+
+      		<ul>
+      			<li class="fellowsMenu1"> Most Wanted </li>
+      			<li class="fellowsMenu1"> Most Dangerous </li>
+      			<li class="fellowsMenu1"> Already Captured </li>
+ 			</ul>	
+ 		</div>
+ 		
+ 		<div id="fellowsImage">
+ 			<div class="fellowsImage1">
+
+ 				<h6 class="infoImage"> Reward 1000 gold coins </h6>
+ 			
+ 				<img src="https://via.placeholder.com/160" alt="">
+
+ 				<div class="titreDescriptionImage">
+
+ 					<h3 class="nomPerso"> The Wizard </h3>
+ 					<h6 class="descriptionImage"> small description </h6>
+
+ 				</div>	
+ 			</div>	
+ 			<div class="fellowsImage1">
+
+ 				<p class="dead"> DEAD </p>
+ 			
+ 				<img src="https://via.placeholder.com/160" alt="">
+
+ 				<div class="titreDescriptionImage">
+
+ 					<h3 class="nomPerso"> Hobbit #3 </h3>
+ 					<h6 class="descriptionImage"> small description </h6>
+
+ 				</div>	
+ 			</div>	
+ 			<div class="fellowsImage1">
+
+ 				<h6 class="infoImage"> Reward 250 gold coins </h6>
+ 			
+ 				<img src="https://via.placeholder.com/160" alt="">
+
+ 				<div class="titreDescriptionImage">
+
+ 					<h3 class="nomPerso"> Yummy Dwarf </h3>
+ 					<h6 class="descriptionImage"> small description </h6>
+
+ 				</div>	
+ 			</div>	
+ 		</div>	
+
+ 	</section>
+ 										<!--        SECTION REWARD      -->
+ 	<hr/>									
+
+ 	<section id="sectionReward">
+
+ 		<h2 class="titreSection" id="reward"> I have captured one of them, how to get my reward ? </h2>
+
+ 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat </p>
+
+ 		<button id="buttonReward"> Contact Us </button>
+ 		
+ 		<img src="https://via.placeholder.com/140" alt="">
+
+ 	</section>									
+
+ 										<!--       SECTION HUNTERS      -->
+ 	<hr/>
+ 											
+ 	<section id="sectionHunters">
+ 		
+ 		<h2 class="titreSection" id="hunters"> Best Hunters </h2>
+
+ 		<div class="profilHunter">
+
+ 			<img src="https://via.placeholder.com/70" alt="">
+
+ 			<h6 class="nomHunter"> ElvesKiller22 </h6>
+
+ 			<h6 class="nbCaptureHunter"> 2 captures - Profile </h6>
+
+ 			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+
+ 		</div>	
+
+ 		<div class="profilHunter">
+
+ 			<img src="https://via.placeholder.com/70" alt="">
+
+ 			<h6 class="nomHunter"> Goblin45 </h6>
+
+ 			<h6 class="nbCaptureHunter"> 1 captures - Profile </h6>
+
+ 			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+
+ 		</div>	
+
+ 	</section>
+ 											<!--       SECTION THE RING      -->
+ 	<hr/>										
+ 											
+ 	<section id="sectionRing">
+
+ 		<h2 class="titreSection" id="ring"> About the ring </h2>
+ 	
+ 		<div class= "ringCapacities">
+
+ 			<h6> Ring capacities </h6>
+
+ 			<div id="tableauRing">
+
+ 				<table>
+ 					<caption id="questionTableau"> What can our master Sauron do with the Ring ? </caption>	
+
+ 					<tr>
+ 						<th>Feature</th>
+ 						<th>Description</th>
+ 					</tr>
+ 					<tr>
+ 						<td>Main</td>
+ 						<td>One ring to rules them all</td>
+ 					</tr>
+ 					<tr>
+ 						<td>Invisibility</td>
+ 						<td>You can't see me</td>
+ 					</tr>
+ 					<tr>
+ 						<td>Power</td>
+ 						<td>Destroy the world</td>
+ 					</tr>	
+ 				</table>
+
+ 			</div>	
+
+ 			<div id="gollumBigSection">
+
+ 				<p id="gollumQuestion">Why the ring is awesome ?</p>
+
+ 				<div id="gollumSection">
+
+ 					<img src="https://via.placeholder.com/110" alt="">
+
+
+ 				
+ 				</div>	
+ 					
+ 			</div>	
+ 		
+ 		</div>	
+
+ 	</section>		
+ 												<!--    SECTION ARMY   -->		
+ 	<hr/>
+ 	
+ 	<section id="sectionArmy">
+ 		
+ 		<h2 class="titreSection" id="army"> Join Mordor Army, we need you !</h2>
+
+ 		<div id="sectionArmy1">
+ 			<img src="https://via.placeholder.com/140" alt="">
+
+ 			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat </p>
+
+ 			<button> More info on SauronRulesThemAll.com </button>
+ 		</div>	
+
+ 	</section>
+
+ 													<!--   SECTION CONTACT US-->
+ 	<hr/>
+
+ 	<section id="sectionContact">
+
+ 		<h2 class="titreSection" id="contact"> Contact us </h2>
+
+ 		<div id="formulaire">
+
+ 			<form method="post" action="traitement.php">
+			
+ 				<p>
+ 					<input type="email" name="email" id="email" placeholder="@"/>
+ 				
+ 				<br/>	
+ 					<input type="text" name="adress" id="adress" placeholder="adresse"/>
+ 				
+ 				<br/>
+ 					<label for="them"> I have seen one of them </label>
+ 					<select name="personnage" id="them" >
+           				<option value="Freudon">Freudon</option>
+           				<option value="Gandalf">Gandalf</option>
+           				<option value="Yoda">Yoda</option>
+          				<option value="Nain">Nain</option>
+          				<option value="Humain">Humain</option>
+         				<option value="Elfe">Elfe</option>
+       				</select>
+
+ 				<br/>
+ 					<textarea name="comment" id="comment" placeholder="your message ..."></textarea> 	
+ 				</p>	 				
+ 			</form>	
+ 		</div>	 		
+ 	</section>		
+
+ 	  											<!--     SECTION FOOTERS     -->
+ 	<footer>
+ 		<div class="footer1">
+ 			<p class="footer3"> <a href="aboutus.html"> About us </a></p>
+ 			<p class="footer3"> <a href="#fellows"> Fellows </a></p>
+ 			<p class="footer3"> <a href="#army"> Join our army </a></p>
+ 		</div>
+
+ 		<div class="footer1">
+			<p class="footer3"><a href="faq.html"> FAQ </a></p>
+ 			<p class="footer3"><a href="rewardconditions.html"> Reward conditions </a></p>
+ 			<p class="footer3"><a href="legalmentions.html"> Legal mentions </a></p> 			
+ 		</div>
+
+ 		<div class="footer2">
+ 			<p class="footer4"><a href="https://sauron4ever.com">Sauron4Ever.com</a></p>
+ 			<p class="footer4"><a href="https://www.twitter.com/Sauron4Ever.">Follow him also on twitter</a></p>
+ 		</div>
+ 	</footer>  																									
+  </body>
