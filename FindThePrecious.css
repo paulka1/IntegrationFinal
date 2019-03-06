@@ -1,0 +1,154 @@
+                    /* HEADER */
+
+
+                    /* CARD */
+
+
+@media only screen and (max-width: 600px){
+
+#FellowsPhrase{
+    display:none
+}
+}
+#FellowsPhrase1{
+    font-size:25px;
+}
+nav a{
+    color:black;
+}
+.card-body{
+    border:black 1px solid;
+}
+#nomGandalf,#nomNain{
+    color:white;
+    text-align: center;
+}
+#textHumain{
+    text-align: center;
+}
+.textReward{
+    background-color:black;
+    color:orange;
+    border-radius: 15px;
+}
+.card-body{
+    background-color:rgb(61, 61, 61);
+    color:white;
+}
+#nain,#humain,#gandalf{
+    opacity: 0.4;
+}
+
+
+
+/*HOVER*/
+
+
+
+#cardGandalf:hover img{
+    opacity: 1;
+}
+#cardHumain:hover img{
+    opacity: 1;
+}
+#cardNain:hover img{
+    opacity: 1;
+}
+#cardGandalf:hover .textReward,#cardNain:hover .textReward{
+    display: none;
+}
+#cardHumain:hover #textHumain{
+    display: none;
+}
+/*ACTIVE*/
+#cardGandalf:active img{
+    opacity: 1;
+}
+#cardHumain:active img{
+    opacity: 1;
+}
+#cardNain:active img{
+    opacity: 1;
+}
+#cardGandalf:active .textReward,#cardNain:active .textReward{
+    display: none;
+}
+#cardHumain:active #textHumain{
+    display: none;
+}
+
+                    /* CAPTURED*/
+
+
+
+
+                    /* BEST HUNTERS */
+
+
+.underline{
+    text-decoration: underline;
+}                    
+
+
+                    /* THE RING*/
+
+
+table,td,th{
+    border:1px white solid;
+}
+#gollum{
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+}    
+
+
+
+                    /* ARMY */
+
+
+
+
+                    /* FORM */
+.boutonContact,textarea{
+    width: 100%;
+}
+
+                    /* FOOTERS */
+
+
+                    
+footer {
+    color: white;
+    background-color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+a {
+        color: #f2f2f2 ;
+    }
+    
+a:hover {
+        color: orange !important;
+    }
+    
+footer ul li a {
+        color: rgb(185, 164, 164);
+    }
+
+
+hr{
+    background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
