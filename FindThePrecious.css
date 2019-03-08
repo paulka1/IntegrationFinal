@@ -1,7 +1,43 @@
+                    /*FONT*/
+                                      
+                    
                     /* HEADER */
+.navBorder{
+    border-right: 1px solid white;
+}
+#navbarNavAltMarkup{
+    justify-content:center;
+}
+#navHeader{
+    background-color:#ff6600;
+}
 
 
-                    /* CARD */
+    /* FOOTERS */
+
+footer {
+color: white;
+background-color:;
+}
+    
+a {
+        color: #f2f2f2 ;
+    }
+.colorPills a:hover{
+    color:#ff6600;
+}    
+a:hover {
+        color: white;
+    }
+a:hover {
+    text-decoration: underline;
+}    
+footer ul li a {
+        color: rgb(185, 164, 164);
+    }
+                    
+    
+    /* CARD */
 
 
 @media only screen and (max-width: 600px){
@@ -28,7 +64,7 @@ nav a{
 }
 .textReward{
     background-color:black;
-    color:orange;
+    color:#ff6600;
     border-radius: 15px;
 }
 .card-body{
@@ -42,7 +78,6 @@ nav a{
 
 
 /*HOVER*/
-
 
 
 #cardGandalf:hover img{
@@ -60,7 +95,10 @@ nav a{
 #cardHumain:hover #textHumain{
     display: none;
 }
+
+
 /*ACTIVE*/
+
 #cardGandalf:active img{
     opacity: 1;
 }
@@ -84,14 +122,12 @@ nav a{
 
                     /* BEST HUNTERS */
 
-
 .underline{
     text-decoration: underline;
 }                    
 
 
                     /* THE RING*/
-
 
 table,td,th{
     border:1px white solid;
@@ -102,11 +138,7 @@ table,td,th{
     width:100px;
 }    
 
-
-
                     /* ARMY */
-
-
 
 
                     /* FORM */
@@ -114,33 +146,7 @@ table,td,th{
     width: 100%;
 }
 
-                    /* FOOTERS */
-
-
                     
-footer {
-    color: white;
-    background-color: #343a40;
-    font-family: 'Open Sans', sans-serif;
-    }
-    
-a {
-        color: #f2f2f2 ;
-    }
-    
-a:hover {
-        color: orange !important;
-    }
-    
-footer ul li a {
-        color: rgb(185, 164, 164);
-    }
-
-
-hr{
-    background-color:black;
-}
-
 
 
 
